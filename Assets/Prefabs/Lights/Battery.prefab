@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8048462565356425357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8048462565356425358}
+  - component: {fileID: 8048462565356425392}
+  - component: {fileID: 8048462565356425359}
+  m_Layer: 8
+  m_Name: Freeform Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8048462565356425358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8048462565356425357}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8048462566274932608}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8048462565356425392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8048462565356425357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 1
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.75
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000d100333ee198ab0adf523803
+  m_LightCookieSprite: {fileID: 21300000, guid: 98833b69ea2e7c34996b486c59ba1f96,
+    type: 3}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.2
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.9154959, y: -0.57418746, z: 0}
+  - {x: 3.9643958, y: -0.55837375, z: 0}
+  - {x: 4.0116644, y: -0.53677386, z: 0}
+  - {x: 4.0717688, y: -0.4959379, z: 0}
+  - {x: 4.113642, y: -0.44572115, z: 0}
+  - {x: 4.188485, y: -0.37913686, z: 0}
+  - {x: 4.2395883, y: -0.29589078, z: 0}
+  - {x: 4.29997, y: -0.24906437, z: 0}
+  - {x: 4.324382, y: -0.15493988, z: 0}
+  - {x: 4.341805, y: -0.08340492, z: 0}
+  - {x: 4.366592, y: 0.012782186, z: 0}
+  - {x: 4.360966, y: 0.0770931, z: 0}
+  - {x: 4.356385, y: 0.16353768, z: 0}
+  - {x: 4.333683, y: 0.23402824, z: 0}
+  - {x: 4.324621, y: 0.26012903, z: 0}
+  - {x: 4.2866235, y: 0.3159684, z: 0}
+  - {x: 4.2721143, y: 0.3638644, z: 0}
+  - {x: 4.2349477, y: 0.4453235, z: 0}
+  - {x: 4.1467557, y: 0.5518289, z: 0}
+  - {x: 4.0359364, y: 0.67065036, z: 0}
+  - {x: 3.9340544, y: 0.7650434, z: 0}
+--- !u!114 &8048462565356425359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8048462565356425357}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7cd5e7ceb1e7f4483b9461f99a6a62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minIntensityRange: 1
+  maxIntensityRange: 0
+  maxIntensityRangeJump: 0.8
+  minFlickeringSpeedInFrames: 0
+  maxFlickeringSpeedInFrames: 0
+  minInnerRadiusRange: 0
+  maxInnerRadiusRange: 0
+  minOuterRadiusRange: 0
+  maxOuterRadiusRange: 0
+--- !u!1 &8048462566274932638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8048462566274932608}
+  - component: {fileID: 8048462566274932639}
+  m_Layer: 0
+  m_Name: Battery
+  m_TagString: Battery
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8048462566274932608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8048462566274932638}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.362, y: 0.117, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8048462565356425358}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &8048462566274932639
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8048462566274932638}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.060643673, y: -0.12485504}
+  serializedVersion: 2
+  m_Radius: 0.7140374

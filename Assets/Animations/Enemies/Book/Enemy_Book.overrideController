@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Enemy_Book
+  m_Controller: {fileID: 9100000, guid: 018489b37352fbf4484fe43c09956fe1, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: a0d6b5f5a8b04dc47991a315f380db2a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 493c1e1e720c3bb4c848623a8fc33edc, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d8d0d09f2d4712b47b1f9d4ca0debf84, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 46c0769aba63cf042ad9e36cda18ee3a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4520a931b0eb57045bcc73f0fdcf30d1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7f1f74ad3f2763a4a82168bae5b5abb5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9836a932c806f1445a24ec20e334dfda, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: eee107219e574694aa35058f10c50acb, type: 2}

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 162738dc4323b2d42be1c082a341184e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - anim: {instanceID: 0}
+  - player: {instanceID: 0}
+  - sceneManager: {fileID: 2720367122920740429, guid: c605413cdb6f3d74ca6849a28c4c944b,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

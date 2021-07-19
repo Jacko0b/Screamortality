@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Battery
+  - NextLevelWaypoint
+  - Flashlight
+  - Symbol
+  - Enemy
+  - ground
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Ground
+  - Flashlight
+  - Waypoint
+  - Symbol
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1043529937
+    locked: 0
+  - name: Symbol
+    uniqueID: 458211233
+    locked: 0
+  - name: Battery
+    uniqueID: 2949397957
+    locked: 0
+  - name: Player
+    uniqueID: 179017953
+    locked: 0
+  - name: Enemy
+    uniqueID: 875453649
+    locked: 0
+  - name: Foreground
+    uniqueID: 54022879
+    locked: 0
